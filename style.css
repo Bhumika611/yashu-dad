@@ -29,28 +29,6 @@ main {
   transform: translateY(0);
 }
 
-.gallery-item {
-  min-height: 260px;
-  border-radius: 2rem;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  overflow: hidden;
-  transition: transform 0.35s ease, box-shadow 0.35s ease;
-}
-
-.gallery-item::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(180deg, transparent 30%, rgba(15, 23, 42, 0.55) 100%);
-}
-
-.gallery-item:hover {
-  transform: scale(1.03);
-  box-shadow: 0 32px 80px rgba(15, 23, 42, 0.35);
-}
-
 #typewriterText {
   min-height: 14rem;
   font-family: 'Courier New', Courier, monospace;
